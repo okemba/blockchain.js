@@ -1,0 +1,55 @@
+.view1 {
+  background-color: #30d5c7;
+}
+
+.view2 {
+  background-color: #2abaae;
+}
+
+.view3 {
+  background-color: #1c7b73;
+}
+
+.view4 {
+  background-color: #13544f;
+}
+
+.view5 {
+  background-color: #28d5cf;
+}
+
+.subview-a {
+  background-color: #2abaae;
+}
+
+.subview-b {
+  background-color: #0eab91;
+}
+
+.subview-c {
+  background-color: #13ad58;
+}
+
+.subview-d {
+  background-color: #45bca1;
+}
+
+.subview-e {
+  background-color: #23dc94;
+}
+
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:10%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Tahoma;
+}

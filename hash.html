@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hash/Key</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="has.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="copyright" content="Lazar Laszlo (c) 2011" />
+    <meta name="Revisit-After" content="1 Days"/>
+    
+    <link href="1.svg" rel="icon">
+    <link href="1.svg" rel="apple-touch-icon">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="compiled-4.17.0.minba25.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light white scrolling-navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">Blockchain.js (DEMO)</a>
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link waves-effect waves-light" href="hash.html">Hash/Key <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="signature.html">Signature/Transaction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="block.html">Block</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="blockchain.html">Blockchain</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </header>
+      <div class="card card-intro blue-gradient">
+
+    <div class="card-body white-text rgba-black-light text-center">
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+
+          <h1 class="font-weight-bold mb-3 h2">HASH/KEY</h1>
+
+          <h4 class="mb-2 h5">Hello ! I'm Stenor okemba, blockchain developer. this is tested of my skills on the blockchain, if you want to fatten me or work with me follow this technology, write me on: okembastenor2020@gmail.com</h4>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+
+  </div>
+    <div class="container" id="dimention"><br>
+      
+      <!-- Table with panel -->
+<div class="card card-cascade narrower mt-4 mb-5">
+
+  <div class="px-4">
+
+    <div class="table-wrapper m-4">
+      According to M.wikipedia A hash function is typically a function which, for a very large set (theoretically infinite) and of a very diverse nature, will return results with precise specifications (in general strings of limited or fixed size ) optimized for specific applications. The chains make it possible to establish relations (equality, probable equality, non-equality, order ...) between the starting objects without accessing them directly, in general either for optimization reasons (the size of the objects of departure harms performance), either for confidentiality reasons. <br> <br>
+
+In other words: 1 file (or 1 word) will correspond to a unique signature (the result of the hash function, ie the hash). <br> <br>
+
+In very concrete terms, we can see a hash function (non-cryptographic) as a means of replicating the data space that we suppose potentially very large and very little filled to make it enter the memory of the computer. On the other hand, a cryptographic hash function is what is called a one-way function, which means that the calculation of the hash function is easy and fast while the calculation of its inverse function is infeasible by calculation and therefore not calculable in practice. Thanks to the hash value (the hash), we can discriminate between two apparently close objects, which can be used to guarantee the integrity of the objects, in other words their non modification by an error or a malicious actor.
+<a href="https://fr.wikipedia.org/wiki/Fonction_de_hachage">https://fr.wikipedia.org/wiki/Fonction_de_hachage</a>
+    </div>
+
+  </div>
+
+</div>
+
+      
+      <!-- Table with panel -->
+<div class="card card-cascade narrower mt-4">
+
+  <!--Card image-->
+  <div
+    class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+
+    <div>
+      
+    </div>
+
+    <h1><a href="" class="white-text mx-3 ">Hash</a></h1>
+
+    <div>
+      
+    </div>
+
+
+  </div>
+  <!--/Card image-->
+
+  <div class="px-4">
+
+    <div class="table-wrapper">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">DATA :</label>
+          <textarea id="data" class="form-control rounded-0" name="name" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">HASH :</label>
+          <input id="hash" class="form-control" disabled="disabled" type="text" name="" value="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855">
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+    <!-- Table with panel -->
+<div class="card card-cascade narrower mt-4 mb-5">
+
+  <div class="px-4">
+
+    <div class="table-wrapper m-4">
+      Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys, which may be disseminated widely, and private keys, which are known only to the owner. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security.[1] <br><br>
+
+In such a system, any person can encrypt a message using the receiver's public key, but that encrypted message can only be decrypted with the receiver's private key.<br><br>
+
+Robust authentication is also possible. A sender can combine a message with a private key to create a short digital signature on the message. Anyone with the sender's corresponding public key can combine the same message and the supposed digital signature associated with it to verify whether the signature was valid, i.e. made by the owner of the corresponding private key.[2][3]<br><br>
+
+Public key algorithms are fundamental security ingredients in modern cryptosystems, applications and protocols assuring the confidentiality, authenticity and non-repudiability of electronic communications and data storage. They underpin various Internet standards, such as Transport Layer Security (TLS), S/MIME, PGP, and GPG. Some public key algorithms provide key distribution and secrecy (e.g., Diffie–Hellman key exchange), some provide digital signatures (e.g., Digital Signature Algorithm), and some provide both (e.g., RSA). MORE  <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">https://en.wikipedia.org/wiki/Public-key_cryptography</a>
+    </div>
+
+  </div>
+
+</div>
+
+      
+      <!-- Table with panel -->
+<div class="card card-cascade narrower mt-4">
+
+  <!--Card image-->
+  <div
+    class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+
+    <div>
+      
+    </div>
+
+    <h1><a href="" class="white-text mx-3 ">Public / Private Key Pairs</a></h1>
+
+    <div>
+      
+    </div>
+
+
+  </div>
+  <!--/Card image-->
+
+  <div class="px-4">
+
+    <div class="table-wrapper">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">PRIVATE KEY:</label>
+        <input class="form-control" id="privateKey" aria-label="Private Key" value="436752719261026921935">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" id="randomButton" type="button">Random</button>
+        </span>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">PUBLIC KEY:</label>
+          <input class="form-control" id="publicKey" disabled="disabled" value="d69007a06f5712002b814f39cc3f654f67c93004a76c3c69b1fbf98b2f2f8889">
+      </div>
+    </div>
+
+  </div>
+
+</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer class="page-footer font-small indigo">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href=""> Blocuss.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <script src="hash.js"></script>
+
+    <script type='text/javascript' src='css/compiled.0.min4a41.js?ver=4.8.2'></script>
+  </body>
+</html>
